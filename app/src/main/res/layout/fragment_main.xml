@@ -64,12 +64,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Поехали!"
-        android:id="@+id/button" />
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="1"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:id="@+id/textView2" />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer"
+        android:layout_gravity="center_horizontal"
+        android:autoText="false"
+        android:format="Время игры: %s" />
 
 </LinearLayout>
