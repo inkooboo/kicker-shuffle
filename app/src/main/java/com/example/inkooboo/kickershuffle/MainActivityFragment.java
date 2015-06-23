@@ -205,11 +205,11 @@ public class MainActivityFragment extends Fragment {
 
                     m_result.setText(
                             "Команда белых:\n" +
-                                    "       защита - " + m_white.defense.getText().toString() + "\n" +
-                                    "  нападение - " + m_white.attack.getText().toString() + "\n\n" +
-                                    "Команда жЁлтых:\n" +
-                                    "       защита - " + m_yellow.defense.getText().toString() + "\n" +
-                                    "  нападение - " + m_yellow.attack.getText().toString()
+                            "       защита - " + m_white.defense.getText().toString() + "\n" +
+                            "  нападение - " + m_white.attack.getText().toString() + "\n\n" +
+                            "Команда жёлтых:\n" +
+                            "       защита - " + m_yellow.defense.getText().toString() + "\n" +
+                            "  нападение - " + m_yellow.attack.getText().toString()
                     );
 
                     m_chronometr.setBase(SystemClock.elapsedRealtime());
